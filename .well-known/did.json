@@ -1,31 +1,30 @@
 {
   "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "type": [
-    "VerifiableCredential",
-    "LegalParticipant"
-  ],
-  "issuer": "did:web:lucasmorales18.github.io:identidad_gaiax",
-  "issuanceDate": "2026-01-05T12:00:00Z",
-  "credentialSubject": {
-    "id": "did:web:lucasmorales18.github.io:identidad_gaiax",
-    "gx:legalName": "Acuratio Europe SLU",
-    "gx:legalRegistrationNumber": {
-      "id": "https://vaas.acuratio.com/registration/VAT-ESB75217612"
-    },
-    "gx:headquarterAddress": {
-      "gx:countrySubdivisionCode": "ES-SS"
-    },
-    "gx:legalAddress": {
-      "gx:countrySubdivisionCode": "ES-SS"
+  "id": "did:web:lucasmorales18.github.io:identidad_gaiax",
+  "verificationMethod": [
+    {
+      "id": "did:web:lucasmorales18.github.io:identidad_gaiax#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:lucasmorales18.github.io:identidad_gaiax",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "zJyy8HxyGgEjLQO2VU9FtxfC4V6yXqgPvREvKflSneOdR32C8gU6v8dEI4Yo9G7SWO2aQyhqs747WqtVfmUm9UfnACwpw9hwvQcQDb9bR2hlFYwZqWWqR6aSIaqrM87jQWkSv4vB0oR5TbIE7Prt-uxcLpDNyF9_Yq7sUQWSnb1LlUOTxIlCgcIQbOQtdqUy0HTFbRJN0D-xb18oKJY75R9wqXx109XglpZKar9LmiMx4wjObQImP0GTQ3dnJ9HuVmQuBvYmB7OZ2jwxUX4LLCESeqmwMYx8ypYh2ToOOYTSj27lv2aXtSdpXz-JbNNk9M-A5uuCwV_2Fem-mt3Bww",
+        "e": "AQAB",
+        "kid": "ggvzbgUtUi0BZRA-jNx0l703nrZadw4tAw64AHLhZQE",
+        "alg": "RS256",
+        "x5c": [
+          "MIIDBDCCAeygAwIBAgIUAOpD0ur8BUPiAYu7mGaRQ62BGi4wDQYJKoZIhvcNAQELBQAwPDEVMBMGA1UEAwwMYWN1cmF0aW8uY29tMRYwFAYDVQQKDA1BY3VyYXRpbyBTLkwuMQswCQYDVQQGEwJFUzAeFw0yNjAxMDUxNjM0NDVaFw0yNzAxMDUxNjM0NDVaMDwxFTATBgNVBAMMDGFjdXJhdGlvLmNvbTEWMBQGA1UECgwNQWN1cmF0aW8gUy5MLjELMAkGA1UEBhMCRVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDMnLLwfHIaASMtA7ZVT0W3F8LhXrJeqA+9ES8p+VKd451HfYLyBTq/x0Qjhij0btJY7ZpDKGqzvjtaq1V+ZSb1R+cALCnD2HC9BxANv1tHaGUVjBmpZapHppIhqqszzuNBaRK/i8HShHlNsgTs+u367FwukM3IX39iruxRBZKdvUuVQ5PEiUKBwhBs5C12pTLQdMVtEk3QP7FvXygoljvlH3CpfHXT1eCWlkpqv0uaIzHjCM5tAiY/QZNDd2cn0e5WZC4G9iYHs5naPDFRfgssIRJ6qbAxjHzKliHZOg45hNKPbuW/Zpe1J2lfP4ls02T0z4Dm64LBX/YV6b6a3cHDAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAKjwhIhgYo0+FmDSs/gYFyMaoADigU8ce34gNKSolFGi20U3ENJ1+2SucukgCpvjYcBwtpJdvKLYhJGRRnn/Rps8sqxZgjI9bWXhRqhBb/7VKzlUAz8/D44NxdIzKQS4rQlkyLne5eU2Fp25SmfF1SBTI7A3xxMMR1/a/o2joHd+2pTs8pNLgPTz85kqEGV12DRcd0IqTvgZ21zn9M+OQlW+xY0WoBPr0cweZwGGIYIcnSU1LSqPjyO45lcp28WldKdiMiY9FtHJyIz2T0ONQy8hSB5av19tAwllZBVKdDZoV+tRByO8LCIC8bmznAWna2zw+2gXDOZ/wrR50Acjzc8="
+        ]
+      }
     }
-  },
-  "proof": {
-    "type": "JsonWebSignature2020",
-    "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:lucasmorales18.github.io:identidad_gaiax#key-1",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ffwh5kjslVHJxPzJYEi7VMHYkxP0g5qfRmI_VD6OXbIP5ieC62CBcih1LcVo-KC1iCSGB24-TCqU5nBUm-Q6byR6VW14OjsDblYAzP5_v9dth5X14A1HgyprgkGMmB4DeMziPG9jKCwiyG3Cwkwba_U9R1eaip3rXbHNNH-oYztfsflrTjmbeHiUHz2OFHmXu2DFxDpFi6GZ8d_DnnvRua-QEqQEPviciV5ydgx5LjG7OfSobd6_JpdzilRqsHSu6z23tT464FP1Nxl3bCYQ3Q62shK06-0vNmtVqSiLOrBi2d0THaizgjtFP9ISgBsrb0ORkU5qbB6YZgZVvkZM3w"
-  }
+  ],
+  "assertionMethod": [
+    "did:web:lucasmorales18.github.io:identidad_gaiax#key-1"
+  ],
+  "authentication": [
+    "did:web:lucasmorales18.github.io:identidad_gaiax#key-1"
+  ]
 }
