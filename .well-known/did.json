@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:lucasmorales18.github.io:identidad-gaiax",
+  "verificationMethod": [
+    {
+      "id": "did:web:lucasmorales18.github.io:identidad-gaiax#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:lucasmorales18.github.io:identidad-gaiax",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "1egB0Sbps9YlotvsoJwrQXmnMhTV70YgjwJvd2S4DVD3jsvfTGgyhGyVakeBy5hw5TQWOZRni6K5JLmqweGfPxAGkMNWTkTueCDdpKALwWmA-W6vgwMNj0ici2AdvUq8BDOHPSCJ_TlOckzEJ_AUkqAQYvrTeZXzuZHUw6nTpw_zZT05NF20upHQNwJDRSIQLyvRGet27XOjTNXnS6FUzJIXZ5GPIqMCG_hiMFsxUla20wLhTBRKNqjjiVEMoQte5hLJPFgC-sv1FD3aKDGPTN8v7ZG_MB9RQiNWWPcExF9m05U_q3K7kJnXy_knWWWcE-NQArp6mIW_wZNzukumjQ",
+        "e": "AQAB",
+        "kid": "FWuGtqEjsWRpEeGl1gEUOEygBQ_CBRP3k5_RGzoZFMY",
+        "alg": "RS256",
+        "x5c": [
+          "MIIDBDCCAeygAwIBAgIUZV3lu2qkJkt+Q3fcBfMZLX5CmzcwDQYJKoZIhvcNAQELBQAwPDEVMBMGA1UEAwwMYWN1cmF0aW8uY29tMRYwFAYDVQQKDA1BY3VyYXRpbyBTLkwuMQswCQYDVQQGEwJFUzAeFw0yNjAxMDUxNTM5MDFaFw0yNzAxMDUxNTM5MDFaMDwxFTATBgNVBAMMDGFjdXJhdGlvLmNvbTEWMBQGA1UECgwNQWN1cmF0aW8gUy5MLjELMAkGA1UEBhMCRVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDV6AHRJumz1iWi2+ygnCtBeacyFNXvRiCPAm93ZLgNUPeOy99MaDKEbJVqR4HLmHDlNBY5lGeLorkkuarB4Z8/EAaQw1ZORO54IN2koAvBaYD5bq+DAw2PSJyLYB29SrwEM4c9IIn9OU5yTMQn8BSSoBBi+tN5lfO5kdTDqdOnD/NlPTk0XbS6kdA3AkNFIhAvK9EZ63btc6NM1edLoVTMkhdnkY8iowIb+GIwWzFSVrbTAuFMFEo2qOOJUQyhC17mEsk8WAL6y/UUPdooMY9M3y/tkb8wH1FCI1ZY9wTEX2bTlT+rcruQmdfL+SdZZZwT41ACunqYhb/Bk3O6S6aNAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAENzvI+GqVFYNsFIzfV3QhTcbn0U5bpaA2rr8rY23zn+ygAGAawLRyZ7sXPfqTwlBD5BUouIl6HKgNhxzFtsNjqzgfESoQzNjIVmHaJgGPgkKeRwR3HRidh7jV8kavTGINUuiO9Ckh2e1RJfJ9iW3Tk3sTlRhOxlyoZD/YRqumtW9mUgtyK6MMNZK0Rre+LZ9+0WX3aZ1KFXt/ycK4jErQtNhvaONzehuvnLUgivjVj4lMHyjgrApvTnQm8qYGBjZYALAIMZ/qeaXk+xZh5I9m93l2mUpvODy0150axCUejAk52RFUJngkL93EKURcSnLuvQw9YeYY2p1oNXNYFmNBQ="
+        ]
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:lucasmorales18.github.io:identidad-gaiax#key-1"
+  ],
+  "authentication": [
+    "did:web:lucasmorales18.github.io:identidad-gaiax#key-1"
+  ]
+}
