@@ -11,7 +11,7 @@
       "controller": "did:web:lucasmorales18.github.io:id-acuratio",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "mkWyPW05F391pPh1odMgCqX0dwUpXZf1EEa1nePf9wu-Ajt9waflh0oHKdhOMytR_7ODal2CQLB79vmdJKSwixg9Amuk5bl3S6KWwx1hvFzxdpSumB0ndalgo3TCV7oj_UOpVqpfNDEQOgPZrvXenO0_cIUu7yYwriq6Syf44eqcwWBqEqSIuI96BFIJoPlWwZSDzRQLUCFufWo8R2LFy8hQAmNR0168-rYU2gn29pu83p4Ac0Ze5lTOwkCVjwjyUMhKiEo4nmNOP0xVCkQAIpJJszKEUuNvk6I1v_vW4UY2Bi6J8Sr3TK9OrH0nkmZ59o6zrMLcyBj4A8JI_s-BMQ",
+        "n": "v68-oVvbbUocxRTteNOed2R80d6kjyRxgfTMGTbAA7sN0ipOl6qh9S6Ooi-_Qcvb-wIOvyxL2Oa4d0db7Gcz82bMxj4dys4zzMGW1EMaHDPxa_x6SWqf_930b-GXUCFEevmp9GziEUrEMcq5_yvzQmFzQ4W-jdaxR6LRv2nngG1IHJUNwOkAO_qPFivgUcVtaMkJA1XF9rV1nkbcMnBV9NfcJtwTUqvW-TW90hg6unuQodGz2HDmnWWeLSoLjkRP-6VNkBoor8qJzu2Y3Ld_aA49da5eSCIngeqlQ7OLW5DSvd3rzwNMaJ9_NLSBKtvfZ90nYrmv6I0hUN9taDJ2eQ",
         "e": "AQAB",
         "alg": "PS256",
         "x5u": "https://lucasmorales18.github.io/id-acuratio/cert.pem"
