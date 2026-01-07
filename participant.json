@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://lucasmorales18.github.io/id-acuratio/participant.json",
+    "issuer": "did:web:lucasmorales18.github.io:id-acuratio",
+    "issuanceDate": "2026-01-07T15:39:46.906169Z",
+    "credentialSubject": {
+        "id": "https://lucasmorales18.github.io/id-acuratio/participant.json#cs",
+        "type": "gx:LegalParticipant",
+        "gx:legalName": "Acuratio Europe SLU",
+        "gx:legalRegistrationNumber": {
+            "gx:vatID": "ESB75217612"
+        },
+        "gx:headquarterAddress": {
+            "gx:countrySubdivisionCode": "ES-SS"
+        },
+        "gx:legalAddress": {
+            "gx:countrySubdivisionCode": "ES-SS"
+        }
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:lucasmorales18.github.io:id-acuratio#JWK2020-RSA",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..h4_0sBcnNao15VdjqJuC9KV4hKzyZGlBcnxI_3m_xxWlhDoYZxxH7bSh_NP_W3G3Q4sCegXmHUm4DIwA4vW2xP9Lcyhmv9TXn9TZxYpjWmxGHpnBFTsB6RCj-m9H26uj6vnJKp9uLA2YIX6un4de5vRAHSxe7b922cUzudXzwTtS617XIfCykUBfMJT5yEDC3p2rqXLaFLRGv-0OFSTlpytMsJRnOOV1DnTrlwSM7FwWZyK0S6Mc5hGprw0jMEYfzalqXzdrPfi7BXMxaHkXtU75r-qR8re3ITUF6RHZfJcKeKLYl0bhm2cGegsCXgyhG0oOwbX0WLpkhwueq8maog"
+    }
+}
