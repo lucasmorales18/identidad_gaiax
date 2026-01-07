@@ -1,0 +1,94 @@
+{
+    "@context": "https://www.w3.org/2018/credentials/v1",
+    "type": "VerifiablePresentation",
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1"
+            ],
+            "credentialSubject": {
+                "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+                "gx:vatID": "ESB75217612",
+                "gx:vatID-countryCode": "ES",
+                "id": "https://lucasmorales18.github.io/id-acuratio/lrn.json#cs",
+                "type": "gx:legalRegistrationNumber"
+            },
+            "evidence": [
+                {
+                    "gx:evidenceOf": "gx:vatID",
+                    "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+                    "gx:executionDate": "2026-01-07T15:44:42.577Z"
+                }
+            ],
+            "id": "https://lucasmorales18.github.io/id-acuratio/lrn.json",
+            "issuanceDate": "2026-01-07T15:44:42.577Z",
+            "issuer": "did:web:registration.lab.gaia-x.eu:v1",
+            "proof": {
+                "created": "2026-01-07T15:44:42.590Z",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WP45BxBC6P5DGND84FRXGG4UljkMJGG-jVF7sFFgBP-PK3iY9OtHHjaMwNVxdfjm6Iag3XpJn9JUTtfqnRuaVaTLkUAKcj06tLGQiR6yI5EkF4pVE382ZszhO9hubkqc73J6RnOo3aE1wRa40SK1y1Jd6VU0sWyMQcpfRksx6qG5gEvC_CWiruZ9pPHv8DHvoz7WJkZ3HRqqpDfUxF1OEjq8bKEQnmuGX7IZNuM3_CUpXlCt4-R1QfuzCalH5Hf728ea4gaCGy3P7d6uoZVFtUsrvA31aRaXkkZLuDGEPpusVxp8YBSRB9cGuNauJrCr-vG-NAohVGjskDu-C2w1Pw",
+                "proofPurpose": "assertionMethod",
+                "type": "JsonWebSignature2020",
+                "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1#X509-JWK2020"
+            },
+            "type": [
+                "VerifiableCredential"
+            ]
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "credentialSubject": {
+                "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+                "id": "https://lucasmorales18.github.io/id-acuratio/tsandcs.json#subject",
+                "type": "gx:GaiaXTermsAndConditions"
+            },
+            "id": "https://lucasmorales18.github.io/id-acuratio/tsandcs.json",
+            "issuanceDate": "2026-01-07T15:26:57.483281Z",
+            "issuer": "did:web:lucasmorales18.github.io:id-acuratio",
+            "proof": {
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CSc8JHxuraTWJrb8eIXlYesOdDfP8tq1TrMQph7v-dcPgVT9orO2I6rIPiBFprkS-0emRevfaN62C-n-xliTlwPPTYUVoTRqcXkHsdxoJfGZ0Ne8fbcwQtZt8Jobi-GnBm3F84qN_JrNctzeRiXXoxZO75gGJDh4021G8E2UhgppmEs0oayrJKFQhP_G6AeuC4c4KO7dYDqUM42eFyPOfV60wCMa9RYr00zhOzbza_kMRqpHakqKKeWhCKO47NsAx5IQ6LQd7GQwbc-554LblOVymJmychE5-ZJnlRF9phnEd9N3JH-jRyN4X9_u_eq1jLVN-wfsXTwlVWxr-DTQnA",
+                "proofPurpose": "assertionMethod",
+                "type": "JsonWebSignature2020",
+                "verificationMethod": "did:web:lucasmorales18.github.io:id-acuratio#JWK2020-RSA"
+            },
+            "type": "VerifiableCredential"
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "credentialSubject": {
+                "gx:headquarterAddress": {
+                    "gx:countrySubdivisionCode": "ES-SS"
+                },
+                "gx:legalAddress": {
+                    "gx:countrySubdivisionCode": "ES-SS"
+                },
+                "gx:legalName": "Acuratio Europe SLU",
+                "gx:legalRegistrationNumber": {
+                    "gx:vatID": "ESB75217612"
+                },
+                "id": "https://lucasmorales18.github.io/id-acuratio/participant.json#cs",
+                "type": "gx:LegalParticipant"
+            },
+            "id": "https://lucasmorales18.github.io/id-acuratio/participant.json",
+            "issuanceDate": "2026-01-07T15:39:46.906169Z",
+            "issuer": "did:web:lucasmorales18.github.io:id-acuratio",
+            "proof": {
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..h4_0sBcnNao15VdjqJuC9KV4hKzyZGlBcnxI_3m_xxWlhDoYZxxH7bSh_NP_W3G3Q4sCegXmHUm4DIwA4vW2xP9Lcyhmv9TXn9TZxYpjWmxGHpnBFTsB6RCj-m9H26uj6vnJKp9uLA2YIX6un4de5vRAHSxe7b922cUzudXzwTtS617XIfCykUBfMJT5yEDC3p2rqXLaFLRGv-0OFSTlpytMsJRnOOV1DnTrlwSM7FwWZyK0S6Mc5hGprw0jMEYfzalqXzdrPfi7BXMxaHkXtU75r-qR8re3ITUF6RHZfJcKeKLYl0bhm2cGegsCXgyhG0oOwbX0WLpkhwueq8maog",
+                "proofPurpose": "assertionMethod",
+                "type": "JsonWebSignature2020",
+                "verificationMethod": "did:web:lucasmorales18.github.io:id-acuratio#JWK2020-RSA"
+            },
+            "type": [
+                "VerifiableCredential"
+            ]
+        }
+    ]
+}
