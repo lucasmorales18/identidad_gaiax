@@ -8,7 +8,7 @@
   ],
   "id": "https://lucasmorales18.github.io/id-acuratio/lrn.json",
   "issuer": "did:web:registration.lab.gaia-x.eu:v1",
-  "issuanceDate": "2026-01-07T15:15:33.578Z",
+  "issuanceDate": "2026-01-07T15:27:08.707Z",
   "credentialSubject": {
     "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
     "type": "gx:legalRegistrationNumber",
@@ -19,15 +19,15 @@
   "evidence": [
     {
       "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
-      "gx:executionDate": "2026-01-07T15:15:33.578Z",
+      "gx:executionDate": "2026-01-07T15:27:08.707Z",
       "gx:evidenceOf": "gx:vatID"
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2026-01-07T15:15:33.592Z",
+    "created": "2026-01-07T15:27:08.721Z",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1#X509-JWK2020",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..cgLcNhZ-BUOpBHUkLbL7TVzYMdaSc2lT4BQepQgJwXox3cthGKz3BFRcFb_OF0EJwlViNlcnGRvJD3kZg-1-7ZDHPMilmQrGI9blu0Dl2Chx21yCojXNREvFR_PncyO2aRWvcqiNmVryeFhCmhRhitIIzvqejsUxDaI775wNXzuvhYt9NwAZ5oHJdFIsFcd0Y19TRLkoglr9LSgbDazSv7lyurOXYvgkkj-PnE1bYdQubOOnAfxn9uWs3HaSOxWLHTBWG5axkqdjcUuP3Z6iPq9FIWZEh-UefmdL7nbbRrOk9c6j3l52uF4viY2tnaizJTJG3BABEZpJEKtUertCDQ"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Dl2OBk-HqIGCQAk2HDyN-Foui9q7mndqHjJW-ZiqMPb7Xp1bzxaQ2cwX8WJLajQ-SP4_yH0H9dVUl50CFj8q8qBZ5Aev0wOE5esqVay_nURlykWj4wHahBqfjt1FqdZqnJX0PXFGvM6hQQ1PXMPBUQnwZuUj11BK5T0dp4XtQqw4KD-4R9nAbxZ9E6f4oo0pv-YyVCQhLnQ8dX-ouVHwjjp__Wf6oXi0EPcq1jLfTbAZlBXnZwnKM0U7F8GHFogmGR6Ye9TWPoDmWbFMLYzxqKLnWRtAdGwrZmNCNi027zP-Hyp-jLOnXgx0rSLDmOPJ31StMm6WCS2G03ORCG40Iw"
   }
 }
