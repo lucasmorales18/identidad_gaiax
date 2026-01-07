@@ -3,28 +3,28 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:lucasmorales18.github.io:id-acuratio",
+  "id": "did:web:lucasmorales18.github.io:id-acuratio:.well-known:did.json",
   "verificationMethod": [
     {
-      "id": "did:web:lucasmorales18.github.io:id-acuratio#key-1",
+      "id": "did:web:lucasmorales18.github.io:id-acuratio:.well-known:did.json#key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:lucasmorales18.github.io:id-acuratio",
+      "controller": "did:web:lucasmorales18.github.io:id-acuratio:.well-known:did.json",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "uptqbtsnI-RU_YTaZdXU6Nm6ZPBIMTZYtR_dtC2Av65UH_CijFtI__dBIKLHI8LYDMBGw4rc-9QggXTHXpKCbQrCj80VoXfDUNl_zwrag6r_UlBn8jtgD_Y1vnl-h3CUc6Rya9vjnlxGn1nUfORMyBYjCEsKXaD2eRBR83PiYURQOQ1STo8VZ7PCWPAncI6dBMzxyBfB2U52y0ZlYlI3fO40O6QThudYGju87ymXz0bvxNS8NEX_6ctantVnaY3jSExzfAgQYh2kW6sCVZwKW8snzguQ_OfI_mSeGNMtr1AEiIbOUhlbeQtw7cCiKwIJ75Sc-3f82C3wC0lvwPm8SQ",
+        "n": "wIXWosqc0kiKJd_mTWSZ4EUBOPDB9UATOm-tcR-ywE8Rn-ffSpIFNxqHY-Y_iMbL963znJS4ixwGUcE0yN2aV66QwadbVIMaNjmPm1MPb9P9SIJgQ4-0ykRsjA9ic61GSOSwsYKMHZJaT4aGCI3hLmF5J0-Dppbeh31nuFj78mVgygB1q4leu1eO9SakUVxtqwoO06ze7QPNOyIRDDlrGu6v-XB02kbmaKlPfHq83FTYAwdDrCzGzSUQGbHDXpU_S_6l7vFkQ1epC4rob9Xk3JXa7Ia_d3zspvJzJqNrvbgwxtQj4zK40zkzFnHv1CNvm2p8GosCJIzRbnftVYJQ-Q",
         "e": "AQAB",
-        "kid": "ysiAWhFedERBy6GlTjoOb76e1eWUhbtfoDWqpTV6fVs",
+        "kid": "Y3ykIHQOUfTl71sFWUK4Cdfhx-c1BMHOFXDSS-dMAZs",
         "alg": "PS256",
         "x5c": [
-          "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"
+          "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"
         ]
       }
     }
   ],
   "assertionMethod": [
-    "did:web:lucasmorales18.github.io:id-acuratio#key-1"
+    "did:web:lucasmorales18.github.io:id-acuratio:.well-known:did.json#key-1"
   ],
   "authentication": [
-    "did:web:lucasmorales18.github.io:id-acuratio#key-1"
+    "did:web:lucasmorales18.github.io:id-acuratio:.well-known:did.json#key-1"
   ]
 }
