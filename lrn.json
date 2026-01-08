@@ -1,33 +1,33 @@
 {
-  "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
-  ],
-  "type": [
-    "VerifiableCredential"
-  ],
-  "id": "https://lucasmorales18.github.io/id-acuratio/lrn.json",
-  "issuer": "did:web:registration.lab.gaia-x.eu:v1",
-  "issuanceDate": "2026-01-08T08:19:21.377Z",
-  "credentialSubject": {
-    "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
-    "type": "gx:legalRegistrationNumber",
-    "id": "https://lucasmorales18.github.io/id-acuratio/lrn.json#cs",
-    "gx:vatID": "ESB75217612",
-    "gx:vatID-countryCode": "ES"
-  },
-  "evidence": [
-    {
-      "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
-      "gx:executionDate": "2026-01-08T08:19:21.377Z",
-      "gx:evidenceOf": "gx:vatID"
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://lucasmorales18.github.io/id-acuratio/lrn.json",
+    "issuer": "did:web:registration.lab.gaia-x.eu:v1",
+    "issuanceDate": "2026-01-08T10:31:05.491Z",
+    "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://lucasmorales18.github.io/id-acuratio/lrn.json#cs",
+        "gx:vatID": "ESB75217612",
+        "gx:vatID-countryCode": "ES"
+    },
+    "evidence": [
+        {
+            "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+            "gx:executionDate": "2026-01-08T10:31:05.490Z",
+            "gx:evidenceOf": "gx:vatID"
+        }
+    ],
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-01-08T10:31:05.503Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Qlqe4Zd5N1abeOR_GXNAf2xJdQ8wMzwZmqdnakCqGX2Ob3K1SRTAL1LwU0GP4HiOJbJlbNGwR1CRiMCsPYmvex2YyeGQKhrnnDmYAb_OKyKJyN-2I_mNwhCnkA5rH5YO7wSWLVJxEeAiafv7cQHN-FPbczbu9CZfOKszgynHOt0rWypgsJCqFu98fMg11F_St_59bd007wtcf-MBAEaHXcr0lvLQCFWuQLkIz10Yq_Xb_-Q2qbS2fUQrMjChN_xnx-iAlO1VARHP0h9o9qpm9qcd14WcnDIP78_vQQBvowS31yiQUUYIegWxha5pqB9f_SoO_x_FZiO_SHhKFDtHqw"
     }
-  ],
-  "proof": {
-    "type": "JsonWebSignature2020",
-    "created": "2026-01-08T08:19:21.395Z",
-    "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1#X509-JWK2020",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OVR8F2wmbETcoWHlwB231yLxb9tVwjd_a_BacaTwkItcw6S93Z077xwubV3KByjB7BrI36JwspRoIgpEXV71vZXWtS3oK0BlM-1f3Jkzj2Uu5azOlOZ7XXiKhPrqqObZdIdZRU_6LwVsMOhCiJnN9U5w8bpJyLnRZzLhYBr2F-a7WhyR5SynTl5K2wZdyKq3x0LljJCFXKyJnfKE1tRkr6ifr9JxWe2RE-x1HM0u61rIFQRJfJGN0ouBh4Z65cQVwxvJHAb0naAfr0kQ925YVwr8YEafHd4Pv1hwHkdalQYpdYjoZQ-E_0b-JJ1Fz_YuqtBDlSfPnlTvjFqD4w0xLg"
-  }
 }
