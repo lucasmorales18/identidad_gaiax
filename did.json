@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:lucasmorales18.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:lucasmorales18.github.io#JWK2020-RSA",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:lucasmorales18.github.io",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "1lfcxuihq_0T6CT9iixT8Qs2XwV99Marj7pGv2VY6zqrkIFQP-fL5sfwoZltIG84_WjtvhLWTC71MLVTLuzQCK0_NqNS1AZIGlxQ44ewqkGLQFpHQUUX2VE1Z41dMoFQliPfztUdHBSzoE0zPFfGCLhSiGrd70W-Lkdx9sTR6nSWeYwv9b-Ingl4vg9Udw-3r9LRALw5wkzvH_OqGYH1FaL7fbVI9rJFJ6clkxEsmraFMHltK_B2BoUZf4uWrw61q61pT5QCYS-BPs0ey4AY9KMkL8hwfUBcvNgq-PmZ6wkpRDIkNLZ0Jw22SSj8xRUpUQ2J6GoBZpc1ANVzLVvAZQ",
+        "e": "AQAB",
+        "alg": "PS256",
+        "x5u": "https://lucasmorales18.github.io/id-acuratio/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:lucasmorales18.github.io#JWK2020-RSA"
+  ]
+}
