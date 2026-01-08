@@ -9,7 +9,7 @@
     ],
     "id": "https://lucasmorales18.github.io/id-acuratio/participant.json",
     "issuer": "did:web:lucasmorales18.github.io:id-acuratio",
-    "issuanceDate": "2026-01-08T08:20:22.622366Z",
+    "issuanceDate": "2026-01-08T10:31:25.555716Z",
     "credentialSubject": {
         "id": "https://lucasmorales18.github.io/id-acuratio/participant.json#cs",
         "type": "gx:LegalParticipant",
@@ -28,6 +28,6 @@
         "type": "JsonWebSignature2020",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:lucasmorales18.github.io:id-acuratio#JWK2020-RSA",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gdzDLjj5trECk7nRVAwR_L3vFn9pmPcK95NfVafw_2W0010oF_JeEXwZLV-JAggjYfjX9yIvISRvvqgcZC6oI8V15VWB4QkO9SemzlcNq1CGlgKzc1a4kuKq_0o0pVPdlzIw8qETk4XyPuyp7jDYG-ntT-PgJMtZX2p8OkwdscRaPnQ4rO_YeQI07u8S18lcfK61dnA-ItvdLx8XfIktkUAXLNjACalFnz0y7r44uT1OEb79xYPVAtA3eq4FPe1Fpz2VcodpBtFHNw36YUBLh9AkHVojX1DO94Zj_74ihHDafLUYSXmozd_X0yJt3_ajDe-DoQ6_6jTUYEnNGvQRDw"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Rx-3AR4XfzgXw_3KboolUKQXNhtbKTik7awhpsd2Rm3MM6xUczYYOgu1oozPpKAbPfJUfZphVTN6F5TNgUftNFsW9a5HoM-d274UNKSTfnKubHlgC3Ocl2onk9ZR41xoga7NmZJTzRsG6gEvH8ZFZCbQGFrCVZJOpkrJm-R8dr0Y1A_NdlKp-6Y5yaDGIZNTOkNgocwXQ7KPKh1ik36oZyenjOzX_0vtq_K9tiq4ecmJ0o-YvLRlHfSWn1E2ZDETpb0q1LJEoyiBp0nJdSog3gN2S3lVi3eO-erz1m8Ot-LwH3LH-52WXGqM_BdLO79nkuaBkDX_sJQGghmUxJHftQ"
     }
 }
