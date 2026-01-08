@@ -18,15 +18,15 @@
                 {
                     "gx:evidenceOf": "gx:vatID",
                     "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
-                    "gx:executionDate": "2026-01-07T15:44:42.577Z"
+                    "gx:executionDate": "2026-01-08T08:19:21.377Z"
                 }
             ],
             "id": "https://lucasmorales18.github.io/id-acuratio/lrn.json",
-            "issuanceDate": "2026-01-07T15:44:42.577Z",
+            "issuanceDate": "2026-01-08T08:19:21.377Z",
             "issuer": "did:web:registration.lab.gaia-x.eu:v1",
             "proof": {
-                "created": "2026-01-07T15:44:42.590Z",
-                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WP45BxBC6P5DGND84FRXGG4UljkMJGG-jVF7sFFgBP-PK3iY9OtHHjaMwNVxdfjm6Iag3XpJn9JUTtfqnRuaVaTLkUAKcj06tLGQiR6yI5EkF4pVE382ZszhO9hubkqc73J6RnOo3aE1wRa40SK1y1Jd6VU0sWyMQcpfRksx6qG5gEvC_CWiruZ9pPHv8DHvoz7WJkZ3HRqqpDfUxF1OEjq8bKEQnmuGX7IZNuM3_CUpXlCt4-R1QfuzCalH5Hf728ea4gaCGy3P7d6uoZVFtUsrvA31aRaXkkZLuDGEPpusVxp8YBSRB9cGuNauJrCr-vG-NAohVGjskDu-C2w1Pw",
+                "created": "2026-01-08T08:19:21.395Z",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OVR8F2wmbETcoWHlwB231yLxb9tVwjd_a_BacaTwkItcw6S93Z077xwubV3KByjB7BrI36JwspRoIgpEXV71vZXWtS3oK0BlM-1f3Jkzj2Uu5azOlOZ7XXiKhPrqqObZdIdZRU_6LwVsMOhCiJnN9U5w8bpJyLnRZzLhYBr2F-a7WhyR5SynTl5K2wZdyKq3x0LljJCFXKyJnfKE1tRkr6ifr9JxWe2RE-x1HM0u61rIFQRJfJGN0ouBh4Z65cQVwxvJHAb0naAfr0kQ925YVwr8YEafHd4Pv1hwHkdalQYpdYjoZQ-E_0b-JJ1Fz_YuqtBDlSfPnlTvjFqD4w0xLg",
                 "proofPurpose": "assertionMethod",
                 "type": "JsonWebSignature2020",
                 "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1#X509-JWK2020"
@@ -47,10 +47,10 @@
                 "type": "gx:GaiaXTermsAndConditions"
             },
             "id": "https://lucasmorales18.github.io/id-acuratio/tsandcs.json",
-            "issuanceDate": "2026-01-07T15:26:57.483281Z",
+            "issuanceDate": "2026-01-08T08:17:28.455081Z",
             "issuer": "did:web:lucasmorales18.github.io:id-acuratio",
             "proof": {
-                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CSc8JHxuraTWJrb8eIXlYesOdDfP8tq1TrMQph7v-dcPgVT9orO2I6rIPiBFprkS-0emRevfaN62C-n-xliTlwPPTYUVoTRqcXkHsdxoJfGZ0Ne8fbcwQtZt8Jobi-GnBm3F84qN_JrNctzeRiXXoxZO75gGJDh4021G8E2UhgppmEs0oayrJKFQhP_G6AeuC4c4KO7dYDqUM42eFyPOfV60wCMa9RYr00zhOzbza_kMRqpHakqKKeWhCKO47NsAx5IQ6LQd7GQwbc-554LblOVymJmychE5-ZJnlRF9phnEd9N3JH-jRyN4X9_u_eq1jLVN-wfsXTwlVWxr-DTQnA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lxzYWGamK-TbDznKbbdPW6vApExut0e5mmIoorV73SCZj32kKaruyv-D5cYFgdtka3SQaAB23KbFNe7oYrBS3a20QQXCCU-AD9NRNaGD1e0HovSZNMnUVv568yBK036Vpu46HISlEbAOQ5Sy1vHif7bznmOYLZLqakDYJ7uNicwakcEZV3Rek1_q7SmluGZxmeJi4_tza3QAYWbWdn_oIzJmUFiX4wUOkfZJ5LJ2k486IMf1IJWMxe9WHGDgWA6mrWf_wdcuBLQyBkmseVf2usSuitCDLG7ddM51jMA38fYMZr3bZXY9xb7IF5Gh_T7PyeOFe3jsYspfCoM6ZXtdqw",
                 "proofPurpose": "assertionMethod",
                 "type": "JsonWebSignature2020",
                 "verificationMethod": "did:web:lucasmorales18.github.io:id-acuratio#JWK2020-RSA"
@@ -78,10 +78,10 @@
                 "type": "gx:LegalParticipant"
             },
             "id": "https://lucasmorales18.github.io/id-acuratio/participant.json",
-            "issuanceDate": "2026-01-07T15:39:46.906169Z",
+            "issuanceDate": "2026-01-08T08:20:22.622366Z",
             "issuer": "did:web:lucasmorales18.github.io:id-acuratio",
             "proof": {
-                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..h4_0sBcnNao15VdjqJuC9KV4hKzyZGlBcnxI_3m_xxWlhDoYZxxH7bSh_NP_W3G3Q4sCegXmHUm4DIwA4vW2xP9Lcyhmv9TXn9TZxYpjWmxGHpnBFTsB6RCj-m9H26uj6vnJKp9uLA2YIX6un4de5vRAHSxe7b922cUzudXzwTtS617XIfCykUBfMJT5yEDC3p2rqXLaFLRGv-0OFSTlpytMsJRnOOV1DnTrlwSM7FwWZyK0S6Mc5hGprw0jMEYfzalqXzdrPfi7BXMxaHkXtU75r-qR8re3ITUF6RHZfJcKeKLYl0bhm2cGegsCXgyhG0oOwbX0WLpkhwueq8maog",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gdzDLjj5trECk7nRVAwR_L3vFn9pmPcK95NfVafw_2W0010oF_JeEXwZLV-JAggjYfjX9yIvISRvvqgcZC6oI8V15VWB4QkO9SemzlcNq1CGlgKzc1a4kuKq_0o0pVPdlzIw8qETk4XyPuyp7jDYG-ntT-PgJMtZX2p8OkwdscRaPnQ4rO_YeQI07u8S18lcfK61dnA-ItvdLx8XfIktkUAXLNjACalFnz0y7r44uT1OEb79xYPVAtA3eq4FPe1Fpz2VcodpBtFHNw36YUBLh9AkHVojX1DO94Zj_74ihHDafLUYSXmozd_X0yJt3_ajDe-DoQ6_6jTUYEnNGvQRDw",
                 "proofPurpose": "assertionMethod",
                 "type": "JsonWebSignature2020",
                 "verificationMethod": "did:web:lucasmorales18.github.io:id-acuratio#JWK2020-RSA"
