@@ -9,13 +9,13 @@
     ],
     "id": "https://lucasmorales18.github.io/id-acuratio/participant.json",
     "issuer": "did:web:lucasmorales18.github.io:id-acuratio",
-    "issuanceDate": "2026-01-08T08:20:22.622366Z",
+    "issuanceDate": "2026-01-09T08:24:41.370965Z",
     "credentialSubject": {
         "id": "https://lucasmorales18.github.io/id-acuratio/participant.json#cs",
         "type": "gx:LegalParticipant",
         "gx:legalName": "Acuratio Europe SLU",
         "gx:legalRegistrationNumber": {
-            "gx:vatID": "https://lucasmorales18.github.io/id-acuratio/lrn.json#cs"
+            "gx:vatID": "ESB75217612"
         },
         "gx:headquarterAddress": {
             "gx:countrySubdivisionCode": "ES-SS"
@@ -28,6 +28,6 @@
         "type": "JsonWebSignature2020",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:lucasmorales18.github.io:id-acuratio#JWK2020-RSA",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gdzDLjj5trECk7nRVAwR_L3vFn9pmPcK95NfVafw_2W0010oF_JeEXwZLV-JAggjYfjX9yIvISRvvqgcZC6oI8V15VWB4QkO9SemzlcNq1CGlgKzc1a4kuKq_0o0pVPdlzIw8qETk4XyPuyp7jDYG-ntT-PgJMtZX2p8OkwdscRaPnQ4rO_YeQI07u8S18lcfK61dnA-ItvdLx8XfIktkUAXLNjACalFnz0y7r44uT1OEb79xYPVAtA3eq4FPe1Fpz2VcodpBtFHNw36YUBLh9AkHVojX1DO94Zj_74ihHDafLUYSXmozd_X0yJt3_ajDe-DoQ6_6jTUYEnNGvQRDw"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GdqLb5J3XMWpYpvI6KOOGe1ytBSoDicLE4EQsg-Q-RUWCtiD6WkdI95WS7RqWq2860sg15D9E2SniEMsVMQywmI9obmIv0FQ0lgA8G9Fuy_EOGlTejzJanA8BHk3vf7BYJh0IObovRL6tD_xLAj8Fh6bEa4rNfnysmrH91P82Fn02p4mDAYDor-fANorOyBWhrT3VPvBIqK0-8mBr_pXDVs7jB5CEriQWmJgAFrCKSbqCXNZXdtDZa-Q1m8iU1jb0gnfTNb1c8gU8UTFeSSF2G6wEYpTCXju01ppiVdQ5h5aWWnnWUHoDDBFuNcMQZqPQfrOfHp8U3CnLXTTkFYGUQ"
     }
 }
